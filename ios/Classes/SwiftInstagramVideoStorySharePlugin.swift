@@ -21,9 +21,10 @@ public class SwiftInstagramVideoStorySharePlugin: NSObject, FlutterPlugin {
                 result(resultDictionary)
                 return
             }
-            let videoPath = args as? String
+            let videoPath = args!["videoPath"] as? String
+            let applicationId = args!["applicationId"] as? String
             print("videoPath: \(videoPath ?? "unknown")")
-            let instagramUrl = URL(string: "instagram-stories://share")
+            let instagramUrl = URL(string: "instagram-stories://share?source_application=\($applicationId ?? "unknown")")
             if UIApplication.shared.canOpenURL(instagramUrl!) {
                 print("Instagram is installed")
                 let documentExists = FileManager.default.fileExists(atPath: videoPath!)
