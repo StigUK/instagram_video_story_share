@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc49c7e5-410d-4407-afb0-110bae34aedd" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/lib/instagram_video_story_share.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/instagram_video_story_share.dart" afterDir="false" />
+    <list default="true" id="bc49c7e5-410d-4407-afb0-110bae34aedd" name="Changes" comment="add application id to shareVideoToInstagramStories">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftInstagramVideoStorySharePlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftInstagramVideoStorySharePlugin.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717712686246</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add application id to shareVideoToInstagramStories">
+      <created>1717713266580</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717713266580</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -78,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="add application id to shareVideoToInstagramStories" />
+    <option name="LAST_COMMIT_MESSAGE" value="add application id to shareVideoToInstagramStories" />
   </component>
 </project>
