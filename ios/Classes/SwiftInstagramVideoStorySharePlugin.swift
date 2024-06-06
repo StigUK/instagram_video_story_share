@@ -21,8 +21,8 @@ public class SwiftInstagramVideoStorySharePlugin: NSObject, FlutterPlugin {
                 result(resultDictionary)
                 return
             }
-            let videoPath = args!["videoPath"] as? String
-            let applicationId = args!["applicationId"] as? String
+            let videoPath = (args as AnyObject)["videoPath"] as? String
+            let applicationId = (args as AnyObject)["applicationId"] as? String
             print("videoPath: \(videoPath ?? "unknown")")
             print("applicationId: \(applicationId ?? "unknown")")
             let instagramUrl = URL(string: "instagram-stories://share?source_application=\(applicationId ?? "unknown")")
